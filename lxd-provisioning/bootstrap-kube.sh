@@ -39,7 +39,7 @@ apt install -qq -y net-tools >/dev/null 2>&1
 # To be executed only on master nodes #
 #######################################
 
-if [[ $(hostname) =~ .*master.* ]]
+if [[ $(hostname) =~ .*km.* ]]
 then
 
   echo "[TASK 7] Pull required containers"
